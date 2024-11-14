@@ -23,23 +23,22 @@ console.log(c.toLocaleDateString())
 function alarmRing(){
 let presentTime=new Date();    
 let alramTime=new Date();
-alramTime.setHours(21);
-alramTime.setMinutes(57);
-alramTime.setSeconds(5);
+alramTime.setHours(24);
+alramTime.setMinutes(0);
+alramTime.setSeconds(0);
 let timeDiff=alramTime-presentTime
 console.log(timeDiff)
 setTimeout(()=>{
-    alert("your alarm is ringing")
+    alert("Happy new year")
     },timeDiff)
-alarmsong.onplay()
-console.log("your alram will ring at 21:57");
+console.log("your alram will ring at 12:00");
 }
 alarmRing()
 //math functions
 //round function
  let d=6.6
 console.log(Math.round(d));
-truc function
+//trunk function
 let p=6.6
 console.log(Math.trunc(p))
 //math.ceil
@@ -69,24 +68,24 @@ console.log(Math.random(j)*100)
 const k=()=>(console.log("vamsi"));
 k();
 //default parameters
-function a(x,y,z=300)
+function q(x,y,z=300)
 {
     console.log(x+y+z);
 }
-a(50,100)
+q(50,100)
 //template literals
 let l="ravi"
-function b(){
+function r(){
     console.log("hi"+l+"how are u");
 
 }
-b()
+r()
 let m="ravi"
-function b(){
+function s(){
     console.log(`hi ${m} how are u`);
 
 }
-b()
+s()
 
 
 
